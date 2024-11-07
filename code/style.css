@@ -1,6 +1,6 @@
-/* *{outline: 1px solid black;} */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* *{outline: 1px solid grey;} */ 
 
 body {
     height: 100vh;
@@ -25,9 +25,16 @@ a {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header-links {
     font-size: 18px;
     font-weight: normal;
+    display: flex;
+    gap: 16px;
 }
