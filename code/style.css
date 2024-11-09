@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* *{outline: 1px solid grey;} */
+/* Base Styles */
+* {
+    /*outline: 1px solid grey;*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}  
 
 body {
     height: 100vh;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: Roboto, sans-serif; 
 }
 
@@ -16,79 +20,87 @@ ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-}
-
-button {
-    font-family: Roboto, sans-serif;
-    background: #3882F6;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 16px;
-}
-
 img {
     color: #F9FAF8;
 }
 
+/* Header Section */
 .header {
-    background-color: #1F2937;
-    font-size: 24px;
-    font-weight: bold;
+    background-color: #8F1402;
     color: #F9FAF8;
-    padding: 16px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 16px 100px;
 }
 
+.header p {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .header-links {
     font-size: 18px;
     font-weight: normal;
     display: flex;
-    gap: 16px;
+    gap: 24px;
+    margin-right: 100px;
 }
 
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    transition: color 0.3s;
+}
+
+/* Introduction Section */
 .introduction {
-    background-color: #1F2937;
-    padding: 100px;
+    background-color: #8F1402;
+    padding: 80px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    padding-bottom: 64px;
+    gap: 40px;
 }
 
-.intro-text {
-    font-size: 48px;
+.intro-text {  
     color: #F9FAF8;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start; 
+    flex: 1;
 }
 
-.intro-secondary-text {
+.intro-text p {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.intro-secondary-text p {
     font-size: 18px;
     font-weight: normal;
     color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.buttons button {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .intro-img {
     display: flex;
     justify-content: flex-end;
+    flex: 1;
 }
 
 .intro-img img {
-    width: 500px;
+    max-width: 100%;
     height: auto;
-}
-
-.intro-text, .intro-img {
-    flex-basis: 50%;
+    border-radius: 8px;
 }
