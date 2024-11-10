@@ -84,8 +84,8 @@ img {
 .buttons button {
     font-family: Roboto, sans-serif;
     font-weight: bold;
-    background-color: #3882F6;
-    color: white;
+    background-color:#F9FAF8;
+    color:  #8F1402;
     border: none;
     border-radius: 8px;
     padding: 12px 20px;
@@ -173,4 +173,19 @@ img {
     align-self: flex-end;
     font-weight: bold;
     color: #1F2937;
+}
+
+/* Sign Up Section */
+.sign-up {
+    margin: 64px 10%;
+    padding: 32px 8%;
+    background-color: #8F1402;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-text {
+    color: #F9FAF8;
 }
