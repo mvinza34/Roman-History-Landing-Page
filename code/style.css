@@ -151,3 +151,26 @@ img {
     border-radius: 8px;
     color: #1F2937;
 }
+
+/* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    padding: 64px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p {
+    margin: 0;
+    padding-right: 50px;
+    align-self: flex-end;
+    font-weight: bold;
+    color: #1F2937;
+}
