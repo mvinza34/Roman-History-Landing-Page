@@ -104,3 +104,46 @@ img {
     height: auto;
     border-radius: 8px;
 }
+
+/* Contents section */
+.contents, .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents {
+    gap: 52px;
+}
+
+.contents h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.units {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info {
+    text-align: center;
+    flex-basis: 20%;
+    margin-bottom: 32px;
+}
+
+.info h4 {
+    color: #1F2937;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.info p {
+    color: #1F2937;
+    margin-top: 15px;
+    line-height: 25px;
+}
