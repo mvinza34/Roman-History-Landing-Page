@@ -113,10 +113,6 @@ img {
     align-items: center;
 }
 
-.contents {
-    gap: 52px;
-}
-
 .contents h2 {
     font-size: 36px;
     color: #1F2937;
@@ -127,13 +123,14 @@ img {
 .units {
     display: flex;
     justify-content: center;
+    gap: 20px;
     align-items: flex-start;
 }
 
 .info {
     text-align: center;
     flex-basis: 20%;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .info h4 {
@@ -146,4 +143,10 @@ img {
     color: #1F2937;
     margin-top: 15px;
     line-height: 25px;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
