@@ -39,6 +39,12 @@ img {
     font-weight: bold;
 }
 
+.header a {
+    text-decoration: none;
+    color: #F9FAF8;
+    transition: color 0.3s;
+}
+
 .header-links {
     font-size: 18px;
     font-weight: normal;
